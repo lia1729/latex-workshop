@@ -277,7 +277,9 @@ Name Here - Homework X - Due DATE
 \end{enumerate}
 
 
-
+%\begin{center}
+%\includegraphics[scale=0.5]{images/Q1.png}
+%\end{center}
 
 
 \end{document}
