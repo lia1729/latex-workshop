@@ -18,7 +18,13 @@
 
 \usepackage{dsfont}
 
+\usepackage[mathscr]{euscript}
+\let\euscr\mathscr \let\mathscr\relax
+
 \usepackage{faktor}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 \usepackage{mathrsfs}
 
@@ -26,13 +32,13 @@
 
 \usepackage[all]{xy}
 
-\usepackage[mathcal]{eucal}
-
-\usepackage{verbatim}  %%includes comment environment
-
 \usepackage{fullpage}  %%smaller margins
 
 \usepackage{enumitem}
+
+\usepackage{multicol}
+
+\usepackage{multirow}
 
 %----------Commands----------
 
@@ -204,8 +210,6 @@
 
 \newcommand{\sZ}{\mathscr{Z}}
 
-\renewcommand{\emptyset}{\O}
-
 \providecommand{\abs}[1]{\lvert #1 \rvert}
 
 \providecommand{\norm}[1]{\lVert #1 \rVert}
@@ -250,37 +254,33 @@
 \begin{document}
 \pagestyle{plain}
 \begin{center} \begin{large}
-Name Here - Homework X - Due DATE
+Lia O'Bryan - Homework NUMBER - Due DATE, 2021
 \end{large} \end{center}
 
 
 %----------Body-------------
 
-\begin{enumerate}
 
+\begin{enumerate}
+    
     %1
-    \item Question 1
+    \item 
     
     \stepcounter{enumi}
     
     %3
-    \item Question 3
+    \item text
+
     
-    \stepcounter{enumi}
-    \stepcounter{enumi}
     
-    %6
-    \item Question 6
-
-
-
+    
 \end{enumerate}
 
 
+
 %\begin{center}
-%\includegraphics[scale=0.5]{images/Q1.png}
+%\includegraphics[scale=0.5]{images/HW1_Q1.jpeg}
 %\end{center}
 
 
 \end{document}
-
